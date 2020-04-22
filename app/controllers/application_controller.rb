@@ -8,5 +8,6 @@ class ApplicationController < ActionController::Base
         g.helper false
         g.test_framework false
       end
+    end
   end
 end

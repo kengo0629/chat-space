@@ -1,0 +1,62 @@
+.wrapper
+
+  = render "side_bar"
+  = render "main_chat"
+
+  .side-bar
+    .side-bar__user-name
+      .top-items
+        %p.top-items__name 
+          masa
+        %ul.top-items__icons
+          %li.top-items__icon
+            = link_to "#" ,class: "top-items__btn" do
+              = icon("far", "edit")
+          %li.top-items__icon
+            = link_to "#" ,class: "top-items__btn" do
+              = icon("fas", "cog")
+    .side-bar__group-list
+      .group-items
+        %p.group-name
+          techcamp
+        %p.group-comment
+          まだメッセージはありません
+      .group-items
+        %p.group-name
+          techcamp
+        %p.group-comment
+          まだメッセージはありません
+        
+  
+  .chat-main
+    .chat-main__group-info
+      %h2.current-group
+        test
+        %p.member
+          Member:masa
+      %a.edit{href: "#"}
+        Edit
+    .chat-main__message-list
+      .messages
+        %h2.editer
+          masa
+          %p.good-morning
+            おはよう
+        %p.date
+          2019/11/20(wed) 17:43:01
+      .messages
+        %h2.editer
+          masa
+          %p.good-morning
+            おはよう
+        %p.date
+          2019/11/20(wed) 17:43:01
+
+    .chat-main__message-form
+      %form.new_messages
+        .input-box
+          %input{type: "text", class: "input-box__text", placeholder: "type a message"}
+          %label{class: "input-box__image"}
+            = icon("fas", "image")
+            %input{type: "file", class: "input-box__image__file"}
+        %input{type: "submit", class: "submit-btn"}

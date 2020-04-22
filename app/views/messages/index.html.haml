@@ -5,6 +5,7 @@
 
   .side-bar
     .side-bar__user-name
+      = current_user.name
       .top-items
         %p.top-items__name 
           masa
@@ -13,8 +14,8 @@
             = link_to "#" ,class: "top-items__btn" do
               = icon("far", "edit")
           %li.top-items__icon
-            = link_to "#" ,class: "top-items__btn" do
-              = icon("fas", "cog")
+            = link_to edit_user_path(current_user) do
+              = icon("fas", "cog", class: "icon")
     .side-bar__group-list
       .group-items
         %p.group-name

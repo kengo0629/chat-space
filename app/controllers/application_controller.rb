@@ -1,13 +1,22 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  module ChatSpace
-    class Aplication < Rails::Application
-      config.generators do |g|
-        g.stylesheets false
-        g.javascripts false
-        g.helper false
-        g.test_framework false
-      end
-    end
+  before_action :authenticate_user!
+  before_action :configure_permitted_parameters, if: :devise_controller?
+
+  protected
+
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.permit(:sign_up, keys: [:name])
   end
 end
+  # module ChatSpace
+  #   class Aplication < Rails::Application
+  #     config.generators do |g|
+  #       g.stylesheets false
+  #       g.javascripts false
+  #       g.helper false
+  #       g.test_framework false
+  #     end
+  #   end
+  # end
+# end

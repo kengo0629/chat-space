@@ -11,8 +11,8 @@
           masa
         %ul.top-items__icons
           %li.top-items__icon
-            = link_to "#" ,class: "top-items__btn" do
-              = icon("far", "edit")
+            = link_to new_group_path(current_user) do
+              = icon("far", "edit", class: "icon")
           %li.top-items__icon
             = link_to edit_user_path(current_user) do
               = icon("fas", "cog", class: "icon")

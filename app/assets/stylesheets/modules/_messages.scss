@@ -130,6 +130,8 @@
         // display:flex;
         // justify-content: flex-start;
         padding-left: 40px;
+        height: calc(100vh - 190px);
+        overflow: scroll;
         // padding-bottom: 46px;
 
         .message {

@@ -59,7 +59,7 @@
       margin: 0px 20px;
       }
         .group {
-          font-size: 15px;
+          font-size: 12px;
           color:#ffffff;
           padding-top: 20px;
           height: 100px;
@@ -70,6 +70,7 @@
           }
           &__name {
             color: white;
+            
           }
           &__message {
             color: white;
@@ -101,10 +102,17 @@
         margin-left: 40px;
         margin-top: 35px;
 
+        .members {
+          font-size: 10px;
+          margin-top: 15px;
+        }
+
         .member {
           font-size: 12px;
           color: #999999;
-          margin-top: 15px;
+          // margin-top: 15px;
+          margin-left: 5px;
+          float: right;
         }
       }
     }
@@ -136,10 +144,11 @@
 
         .message {
           padding-bottom: 46px;
+
         }
       
 
-        .editer {
+        .upper_message__user-name {
         color: #333333;
         font-size: 16px;
         }
@@ -160,6 +169,8 @@
       background-color: #d2d2d2;
       height: 90px;
       padding: 20px 40px;
+      position: fixed;
+      width: calc(100% - 300px);
       form {
         display: flex;
         .form__mask {

@@ -2,8 +2,10 @@
   .chat-main__group-info
     %h2.current-group
       = current_user.name
-      %p.member
-        = current_user.name
+      .members
+        Member:
+        %p.member
+          = current_user.name
     %a.edit{href: "/groups/#{@group.id}/edit"}
       Edit
   .chat-main__message-list

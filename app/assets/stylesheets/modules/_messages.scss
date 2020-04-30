@@ -70,10 +70,12 @@
           }
           &__name {
             color: white;
-            
+            font-size: 15px;
           }
           &__message {
             color: white;
+            font-size: 11px;
+            margin-top: 5px;
           }
         }
 
@@ -144,14 +146,24 @@
 
         .message {
           padding-bottom: 46px;
-
         }
-      
-
-        .upper_message__user-name {
+        .upper-message__user-name {
         color: #333333;
         font-size: 16px;
+        float: left;
         }
+        .upper-message__date {
+          color: #999999;
+          font-size: 12px;
+          padding-left: 20px;
+        }
+        .lower-message {
+          color: #434A54;
+          font-size: 14px;
+          margin-top: 12px;
+        }
+
+
           .good-morning {
           color: #434A54;
           font-size: 14px;

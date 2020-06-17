@@ -23,6 +23,7 @@ Things you may want to cover:
 
 * ...
 
+
 # CHAT-SPACE DB設計
 
 ## groups_usersテーブル

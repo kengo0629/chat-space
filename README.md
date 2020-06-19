@@ -27,7 +27,10 @@ Things you may want to cover:
 [![Image from Gyazo](https://i.gyazo.com/5b6147a2362df3a70456f0e3324113cb.png)](https://gyazo.com/5b6147a2362df3a70456f0e3324113cb)
 
 # 概要
+グループ作成し・メッセージや画像の投稿が可能なコミュニケーションアプリケーション
 
+# デモ動画
+[![Image from Gyazo](https://i.gyazo.com/91f94d6f8d5cad59e1c5b9836a01ac6d.gif)](https://gyazo.com/91f94d6f8d5cad59e1c5b9836a01ac6d)
 # CHAT-SPACE DB設計
 
 ## groups_usersテーブル

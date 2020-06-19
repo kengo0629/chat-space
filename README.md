@@ -31,6 +31,9 @@ Things you may want to cover:
 
 # デモ動画
 [![Image from Gyazo](https://i.gyazo.com/91f94d6f8d5cad59e1c5b9836a01ac6d.gif)](https://gyazo.com/91f94d6f8d5cad59e1c5b9836a01ac6d)
+
+[![Image from Gyazo](https://i.gyazo.com/cfbf906dedde7f2c5ae97d3e6d125cf7.gif)](https://gyazo.com/cfbf906dedde7f2c5ae97d3e6d125cf7)
+
 # CHAT-SPACE DB設計
 
 ## groups_usersテーブル

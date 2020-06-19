@@ -23,6 +23,10 @@ Things you may want to cover:
 
 * ...
 
+# CHAT-SPACE
+[![Image from Gyazo](https://i.gyazo.com/5b6147a2362df3a70456f0e3324113cb.png)](https://gyazo.com/5b6147a2362df3a70456f0e3324113cb)
+
+# 概要
 
 # CHAT-SPACE DB設計
 
